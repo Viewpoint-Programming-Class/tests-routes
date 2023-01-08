@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "description": "Testing routes",
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "hebcal": "^2.3.2",
+    "mocha": "^10.2.0",
+    "node-fetch": "^2.6.7"
+  },
+  "prettier": {
+    "semi": true,
+    "tabWidth": 2,
+    "singleQuote": true
+  }
+}
