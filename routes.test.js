@@ -12,5 +12,4 @@ it('Should respond with hello world!', async () => {
   expect(await response.text()).eq('Hello world!');
 });
 
-after(() => server.close(() => 'Shutting down server'))
-
+after(() => server.close(() => 'Shutting down server'));
